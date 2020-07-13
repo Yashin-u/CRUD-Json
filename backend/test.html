@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        #myDIV {
+            height: 250px;
+            width: 250px;
+            overflow: auto;
+            background: green;
+        }
+
+        #content {
+            margin:500px;
+            height: 800px;
+            width: 2000px;
+            background-color: coral;
+        }
+
+        #content1 {
+            margin:500px;
+            height: 800px;
+            width: 2000px;
+            background-color: coral;
+        }
+    </style>
+</head>
+<body>
+
+<button onclick="myFunction()">Scroll</button>
+
+<div id="myDIV">
+    <div id="content">
+        Some text inside an element.
+    </div>
+    <div id="content1">
+        hello
+    </div>
+</div>
+
+<script>
+    function myFunction() {
+        var elmnt = document.getElementById("content");
+        elmnt.scrollIntoView();
+    }
+</script>
+
+</body>
+</html>

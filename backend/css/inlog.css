@@ -1,0 +1,8 @@
+@keyframes login {
+    from {
+        margin: 0 auto;
+    }
+    to {
+        margin-left: 100%;
+    }
+}
